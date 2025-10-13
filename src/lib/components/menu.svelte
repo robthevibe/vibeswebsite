@@ -1,5 +1,5 @@
 <script>
-  import { page } from '$app/stores'; // gives us the current route
+  import { page } from '$app/stores'; 
 </script>
 
 <ul>
