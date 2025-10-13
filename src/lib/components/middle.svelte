@@ -25,11 +25,11 @@
           <Icon icon="mdi:github" width="40" />
         </a>
 
-        <a href="https://www.linkedin.com/in/robert-deacon-070705363/" target="_blank" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/rob-deacon-070705363/" target="_blank" aria-label="LinkedIn">
           <Icon icon="mdi:linkedin" width="40" />
         </a>
 
-        <a href="mailto:your@email.com" aria-label="Email">
+        <a href="mailto:robdeacon89@gmail.com" aria-label="Email">
           <Icon icon="mdi:email" width="40" />
         </a>
       </div>
