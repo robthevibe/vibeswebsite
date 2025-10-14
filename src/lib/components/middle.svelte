@@ -16,7 +16,7 @@
 
 
     <div class="cta-row">
-      <a class="cv-button" href="/RobDeaconCV" download>
+      <a class="cv-button" href="/RobDeaconCV.pdf" download>
         Download my CV
       </a>
 
