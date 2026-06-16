@@ -7,13 +7,13 @@
     <a href="/" class={$page.url.pathname === "/" ? "active" : ""}>Home</a>
   </li>
   <li>
-    <a href="/about" class={$page.url.pathname === "/about" ? "active" : ""}>About</a>
+    <a href="/" class={$page.url.pathname === "/about" ? "active" : ""}>About</a>
   </li>
   <li>
     <a href="/RobDeaconCV.pdf" download>CV</a>
   </li>
   <li>
-    <a href="/banger" class={$page.url.pathname === "/banger" ? "active" : ""}>
+    <a href="/" class={$page.url.pathname === "/banger" ? "active" : ""}>
       <span class="long-label">Banger of the Day</span>
       <span class="short-label">Bangers</span>
     </a>

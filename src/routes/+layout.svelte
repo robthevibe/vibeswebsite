@@ -1,6 +1,5 @@
 <script>
   import Footer from '$lib/components/footer.svelte';
-  import Menu from '$lib/components/menu.svelte';
 </script>
 
 <svelte:head>
@@ -8,22 +7,21 @@
 </svelte:head>
 
 <div class="page-wrapper">
-  <Menu />
-
   <main class="page-content">
-    <slot /> 
+    <div class="container">
+      <slot />
+    </div>
   </main>
 
-
+  <Footer />
 </div>
 
 <style>
   :global(body) {
     margin: 0;
     min-height: 100vh;
-
-    
-    background: linear-gradient(-45deg,
+    background: linear-gradient(
+      -45deg,
       #d8f3dc,
       #fefae0,
       #faedcd,
@@ -31,12 +29,22 @@
     );
     background-size: 400% 400%;
     animation: gradientFlow 20s ease infinite;
+    color: #08323a;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   }
 
   @keyframes gradientFlow {
-    0%   { background-position: 0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
   @font-face {
@@ -49,10 +57,17 @@
   .page-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
   }
 
   .page-content {
-    flex: 1; 
+    flex: 1;
+    padding: 4rem 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
   }
 </style>

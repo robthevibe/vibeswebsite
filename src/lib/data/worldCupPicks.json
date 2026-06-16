@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Grace",
+    "teams": ["BRA", "SWE", "IRQ"]
+  },
+  {
+    "name": "Dave",
+    "teams": ["ENG", "URU", "QAT"]
+  },
+  {
+    "name": "Harry",
+    "teams": ["ARG", "EGY", "NZL"]
+  },
+  {
+    "name": "Kobus",
+    "teams": ["ESP", "KOR", "PAN"]
+  },
+  {
+    "name": "Emily",
+    "teams": ["FRA", "AUT", "GHA"]
+  },
+  {
+    "name": "Jessie",
+    "teams": ["POR", "CAN", "TUN"]
+  },
+  {
+    "name": "Rob",
+    "teams": ["GER", "SUI", "KSA"]
+  },
+  {
+    "name": "James",
+    "teams": ["NED", "CZE", "UZB"]
+  },
+  {
+    "name": "Erin",
+    "teams": ["BEL", "PAR", "RSA"]
+  },
+  {
+    "name": "Lex",
+    "teams": ["USA", "DZA", "CPV"]
+  },
+  {
+    "name": "Lyall",
+    "teams": ["COL", "CRO", "CUW"]
+  },
+  {
+    "name": "Cate",
+    "teams": ["MAR", "ECU", "JOR"]
+  },
+  {
+    "name": "Brab",
+    "teams": ["JPN", "TUR", "IRN"]
+  },
+  {
+    "name": "Scott",
+    "teams": ["NOR", "BIH", "AUS"]
+  },
+  {
+    "name": "Eriko",
+    "teams": ["MEX", "CIV", "COD"]
+  },
+  {
+    "name": "Kendal",
+    "teams": ["SEN", "SCO", "HTI"]
+  }
+]
