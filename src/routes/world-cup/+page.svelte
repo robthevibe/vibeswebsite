@@ -61,11 +61,6 @@
       <p class="eyebrow">World Cup 2026</p>
       <h1>Sweepstake</h1>
 
-      {#if data.results?.updatedAt}
-        <p class="last-updated">
-          Last checked: {new Date(data.results.updatedAt).toLocaleString('en-NZ')}
-        </p>
-      {/if}
     </div>
 
     {#if leader}
@@ -103,27 +98,9 @@
       {data.error}
     </section>
   {:else}
-    <section class="summary-grid">
-      <article class="summary-card">
-        <p>Matches played</p>
-        <strong>{data.results?.resultSet?.played ?? 0}</strong>
-      </article>
+    
 
-      <article class="summary-card">
-        <p>Total matches</p>
-        <strong>{data.results?.resultSet?.count ?? 0}</strong>
-      </article>
-
-      <article class="summary-card">
-        <p>Players</p>
-        <strong>{picks.length}</strong>
-      </article>
-
-      <article class="summary-card">
-        <p>Teams picked</p>
-        <strong>{getPickedTeamCount()}</strong>
-      </article>
-    </section>
+    
 
     <section class="section">
       <div class="section-header">
